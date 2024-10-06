@@ -1,4 +1,4 @@
-## Contains solutions for the S30 ETL Assignment
+## Solutions for the S30 ETL Assignment
 
 Both sql and pandas solutions use the sqlite3 library to connect to the database. The csv library was used for the sql solution to write results to a csv file.
 
