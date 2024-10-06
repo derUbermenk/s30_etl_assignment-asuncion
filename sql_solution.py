@@ -26,6 +26,7 @@ def sql_solution():
             ON s.customer_id = c.customer_id
             GROUP BY s.customer_id, c.age, i.item_id, i.item_name
             ORDER BY c.age ASC
+
         """)
         results = res.fetchall()
 
